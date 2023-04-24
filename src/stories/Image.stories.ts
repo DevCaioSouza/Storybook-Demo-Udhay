@@ -25,8 +25,8 @@ WithImageCaption.args = {
   figCaptionTxt:  'The French Quarter or White Town area in Pondicherry is filled with elegant colonial mansions in the midst of tree-lined boulevards, named on French streets beginning with "rue", numerous parks and charming cafés.'
 };
 
-export const WithZeroOpacity = Template.bind({});
-WithZeroOpacity.args = {
+export const WithFullOpacity = Template.bind({});
+WithFullOpacity.args = {
     imgOpacity: 1
 };
 
