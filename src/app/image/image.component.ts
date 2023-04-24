@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ImageComponent implements OnInit {
   @Input()
-  imgSrc: string = '<UPDATE IMAGE URL>'; //Make sure you add your image URL
+  imgSrc: string = 'https://fastly.picsum.photos/id/42/3456/2304.jpg?hmac=dhQvd1Qp19zg26MEwYMnfz34eLnGv8meGk_lFNAJR3g'; //Make sure you add your image URL
  
   @Input()
   altTxt?: string = 'Pondicherry French Hotel';
